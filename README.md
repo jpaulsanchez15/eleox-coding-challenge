@@ -4,7 +4,7 @@ First, run `npm i` to install dependencies
 
 Then, create a .env with these two lines for the project
 ```
-API_URL=https://eleox-interview-api-7n5su.ondigitalocean.app
+API_URL="Interview API URL Here"
 HOST_URL=http://localhost:3000
 ```
 
