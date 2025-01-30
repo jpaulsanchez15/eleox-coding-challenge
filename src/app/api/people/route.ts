@@ -2,7 +2,6 @@ import { NextRequest } from "next/server";
 
 export async function GET(request: NextRequest) {
   const auth = request.headers.get("Authorization");
-  console.log(auth);
 
   const data = await fetch(`${process.env.API_URL}/people`, {
     headers: {
