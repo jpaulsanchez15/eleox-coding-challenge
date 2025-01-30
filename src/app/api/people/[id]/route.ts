@@ -11,8 +11,8 @@ export async function GET(request: NextRequest) {
       Authorization: `${auth}`,
     },
   });
-  console.log(data);
+
   const people = await data.json();
-  console.log(people);
+
   return Response.json(people);
 }
