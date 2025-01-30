@@ -15,7 +15,6 @@ export default async function Home() {
       <h1 className="text-3xl font-bold text-center justify-center mx-auto flex">
         Eleox Coding Challenge
       </h1>
-      <Button>Create Person</Button>
       <PeopleTable accessToken={accessToken} />
     </div>
   );
